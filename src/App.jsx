@@ -1,7 +1,7 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import HomePage from "./pages/HomePage/HomePage";
-import TweetsPage from "./pages/TweetsPage/TweetsPage";
+import HomePage from "./pages/HomePage/";
+import TweetsPage from "./pages/TweetsPage";
 import { Layout } from "./Layout";
 
 function App() {
