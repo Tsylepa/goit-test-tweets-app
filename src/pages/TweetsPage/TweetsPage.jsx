@@ -36,7 +36,7 @@ function TweetsPage() {
       setFilteredUsers(response);
     }
     filterUsers();
-  }, [filter]);
+  }, [filter, followings, users]);
 
   useEffect(() => {
     setFilteredUsers(users);
@@ -63,7 +63,7 @@ function TweetsPage() {
       }
     }
     fetchUsers();
-  }, [page]);
+  }, [page, users]);
 
   async function handleFollow(id) {
     const userIdx = followings.indexOf(id);

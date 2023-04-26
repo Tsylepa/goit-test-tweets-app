@@ -12,7 +12,7 @@ import {
 } from "./UserCard.styled";
 
 export default function UserCard({ user, handleFollow, followings }) {
-  const { id, user: userName, tweets, followers, avatar } = user;
+  const { id, tweets, followers, avatar } = user;
   const [isLoading, setIsLoading] = useState(false);
   const isFollowed = followings.find((user) => user === id);
 
