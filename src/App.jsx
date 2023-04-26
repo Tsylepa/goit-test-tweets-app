@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route exact path="/" element={<Layout />}>
+        <Route path="/" element={<Layout />}>
           <Route exact index path="/" element={<HomePage />} />
           <Route exact path="/tweets" element={<TweetsPage />} />
           <Route path="*" element={<HomePage />} />

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/Tsylepa/goit-test-tweets-app",
+  "homepage": "https://Tsylepa.github.io/goit-test-tweets-app/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
