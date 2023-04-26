@@ -20,7 +20,6 @@ async function getUserById({ id, page }) {
 }
 
 async function followersUpdate({ id, modificator }) {
-  console.log(id);
   const userToUpdate = await getUserById({ id });
   const { data } = await axios.put(`${BASE_URL}/users/${id}`, {
     followers: userToUpdate.followers + modificator,

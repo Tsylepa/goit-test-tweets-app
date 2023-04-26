@@ -33,8 +33,6 @@ const Kaleidoscope = memo(function ({ text }) {
     return () => clearInterval(interval);
   }, []);
 
-  console.log(strings.length);
-
   return (
     <>
       {strings.map((string) => (
